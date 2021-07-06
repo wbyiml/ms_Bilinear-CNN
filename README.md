@@ -13,6 +13,7 @@ densenet121预训练模型（可从mindspore hub下载）：https://pan.baidu.co
 
 训练：
 CUDA_VISIBLE_DEVICES=0 python train.py --dataset_path data/cub200 --device_target GPU --epoch 120
+
 评估：
 CUDA_VISIBLE_DEVICES=1 python eval.py --dataset_path data/cub200 --device_target GPU --ckpt_path outputs/bcnn-120_374.ckpt
 
